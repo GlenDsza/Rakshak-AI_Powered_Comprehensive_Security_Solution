@@ -1,0 +1,89 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "cctv_c01",
+        "cctv_type": "prison",
+        "title": "Cell #2",
+        "description": "Prison, Jaipur",
+        "kind": "default",
+        "streamUrl": "https://res.cloudinary.com/dp0ayty6p/video/upload/v1705495523/samples/prison_kenneth.mp4"
+      },
+      "geometry": { "coordinates": [75.801752,26.923884], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "cctv_c00",
+        "cctv_type": "prison",
+        "title": "Cell #1",
+        "description": "Prison, Jaipur",
+        "kind": "default",
+        "streamUrl": "https://res.cloudinary.com/dp0ayty6p/video/upload/v1705470821/samples/prison_cell_fight_crack.mp4"
+      },
+      "geometry": { "coordinates": [75.801752,26.923884], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "cctv_p00",
+        "cctv_type": "station_premises",
+        "title": "Backyard",
+        "description": "Prison, Jaipur",
+        "kind": "default",
+        "streamUrl": "https://res.cloudinary.com/dp0ayty6p/video/upload/v1705472325/samples/prison_wall_climbing.mp4"
+      },
+      "geometry": { "coordinates": [75.801752,26.923884], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "cctv_p03",
+        "cctv_type": "public",
+        "title": "Station Road",
+        "description": "Gopalbari, Jaipur, Rajasthan",
+        "kind": "default",
+        "streamUrl": "https://res.cloudinary.com/dp0ayty6p/video/upload/v1705471181/samples/public_accident_fire.mp4"
+      },
+      "geometry": { "coordinates": [75.793044, 26.920830], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "cctv_p04",
+        "cctv_type": "public",
+        "title": "Jawahar Nagar",
+        "description": "Jaipur, Rajasthan 302004",
+        "kind": "default",
+        "streamUrl": "https://res.cloudinary.com/dp0ayty6p/video/upload/v1705485743/samples/fire_sample.mp4"
+      },
+      "geometry": { "coordinates": [75.849222, 26.917390], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "cctv_p05",
+        "cctv_type": "public",
+        "title": "Nirman Nagar",
+        "description": "Sushilpura, Jaipur",
+        "kind": "default",
+        "streamUrl": "https://res.cloudinary.com/dp0ayty6p/video/upload/v1705522896/samples/wanted_weapons.mp4"
+      },
+      "geometry": { "coordinates": [75.831701, 26.885766], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "cctv_p06",
+        "cctv_type": "public",
+        "title": "Jhalana Gram",
+        "description": "Malviya Nagar, Jaipur",
+        "kind": "default",
+        "streamUrl": "https://res.cloudinary.com/dp0ayty6p/video/upload/v1704614357/samples/gun_video.mp4"
+      },
+      "geometry": { "coordinates": [75.820325, 26.865715], "type": "Point" }
+    }
+  ],
+  "type": "FeatureCollection"
+}

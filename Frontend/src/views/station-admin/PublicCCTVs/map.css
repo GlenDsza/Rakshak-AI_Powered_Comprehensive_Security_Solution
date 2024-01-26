@@ -1,0 +1,25 @@
+.public-cctvs-map-container,
+.public-cctvs-map-container .mapboxgl-map {
+  min-height: inherit;
+  border-radius: 0.8rem;
+}
+
+.cctv-marker-popup .mapboxgl-popup-close-button {
+  width: 30px;
+  padding-bottom: 5px;
+  line-height: 1;
+  font-size: 26px;
+}
+
+.cctv-marker-popup .mapboxgl-popup-content {
+  font-size: 13px;
+  border-radius: 11px;
+  box-shadow: 0px 1px 5px 5px rgba(0, 0, 0, .1);
+  padding: 13px 15px 4px;
+}
+
+.public-cctvs-map-drawer,
+.public-cctvs-map-drawer .mapboxgl-map {
+  min-height: 100vh;
+  height: 100vh;
+}

@@ -1,0 +1,84 @@
+name: rakshak
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  flutter_localizations: 
+    sdk: flutter
+  flutter_bloc: ^8.0.0
+  connectivity_plus: ^2.3.6
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  equatable: ^2.0.0
+  google_sign_in: ^5.0.7
+  flutter_login_facebook: ^1.6.2
+  flutter_switch: ^0.3.2
+  country_pickers: ^2.0.0
+  flutter_svg_provider: ^1.0.3
+  carousel_slider: ^4.0.0
+  smooth_page_indicator: ^1.0.0+2
+  pin_code_fields: ^7.3.0
+  sms_autofill: ^2.0.0
+  pin_input_text_field: 4.1.0
+  intl: ^0.18.0
+  dio: ^5.0.3
+  fluttertoast: ^8.0.8
+  permission_handler: ^10.0.0
+  images_picker: ^1.2.11
+  flutter_contacts: ^1.1.5
+  flutter_dotenv: ^5.1.0
+  http: ^0.13.4
+  http_parser: ^4.0.2
+  multi_dropdown: ^2.0.0
+  flutter_local_notifications: ^16.3.0
+  flutter_background_service: ^2.4.6
+  fl_chart: ^0.63.0
+  path_provider: ^2.0.2
+  google_maps_flutter: ^2.5.0
+  appinio_video_player: ^1.2.2
+  
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  generate: true
+  uses-material-design: true
+  assets: 
+    - .env
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Manrope
+      fonts: 
+        - asset: assets/fonts/ManropeMedium.ttf
+          weight: 500
+        - asset: assets/fonts/ManropeSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Manrope.ttf
+          weight: 400
+        - asset: assets/fonts/ManropeExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/ManropeBold.ttf
+          weight: 700
+        - asset: assets/fonts/ManropeRegular.ttf
+          weight: 400
+    - family: SF Pro Display
+      fonts: 
+        - asset: assets/fonts/SFProDisplayMedium.ttf
+          weight: 500
+        - asset: assets/fonts/SFProDisplayRegular.ttf
+          weight: 400
+        - asset: assets/fonts/SFProDisplayBold.ttf
+          weight: 600
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterMedium.ttf
+          weight: 500
+    - family: Readex Pro
+      fonts: 
+        - asset: assets/fonts/ReadexProRegular.ttf
+          weight: 400

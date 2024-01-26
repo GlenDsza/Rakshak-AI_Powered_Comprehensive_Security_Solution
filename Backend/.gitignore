@@ -1,0 +1,11 @@
+env
+*.pyc
+.env
+.vercel
+cred.json
+**/.DS_Store
+
+# virtual environment
+venv
+
+models/weights/**

@@ -1,0 +1,31 @@
+.public-cctvs-container,
+.public-cctvs-map {
+  min-height: inherit;
+}
+
+.sidebarStyle {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 12px;
+  background-color: #404040;
+  color: #ffffff;
+  z-index: 1 !important;
+  padding: 6px;
+  font-weight: bold;
+}
+
+.sliding-panel-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 150;
+  background: rgb(56 56 56 / 70%);
+}
+
+.public-cctvs-map-drawer {
+  min-width: 70%;
+  position: absolute;
+  right: 0;
+}

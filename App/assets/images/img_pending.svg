@@ -1,0 +1,20 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+<svg fill="#fabe3c" width="64px" height="64px" viewBox="0 0 24 24" id="loading" data-name="Line Color" xmlns="http://www.w3.org/2000/svg" class="icon line-color">
+
+<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+
+<g id="SVGRepo_iconCarrier">
+
+<path id="primary" d="M16,18v3H8V18a6,6,0,0,1,2.4-4.8L12,12l1.6,1.2A6,6,0,0,1,16,18Z" style="fill: none; stroke: #fabe3c; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"/>
+
+<path id="primary-2" data-name="primary" d="M13.6,10.8,12,12l-1.6-1.2A6,6,0,0,1,8,6V3h8V6A6,6,0,0,1,13.6,10.8Z" style="fill: none; stroke: #fabe3c; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"/>
+
+<path id="secondary" d="M6,21H18M6,3H18" style="fill: none; stroke: #fabe3c; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"/>
+
+</g>
+
+</svg>

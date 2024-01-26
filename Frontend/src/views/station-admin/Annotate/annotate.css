@@ -1,0 +1,32 @@
+.annotation-container, .annotation-container>.split-view-container {
+  min-height: 65vh;
+  padding: 5px;
+}
+
+.annotation-container .annotation-editor-container{
+  /* width: -webkit-fill-available !important; */
+  width: 800px;
+  height: 400px;
+  margin: auto;
+  background-color: rgb(248, 252, 255);
+}
+.annotation-container .konvajs-content canvas{
+  /* width: -webkit-fill-available !important; */
+}
+.annotation-images-list::-webkit-scrollbar {
+  height: 8px;
+}
+.annotation-images-list {
+  height: 100px;
+  padding: 5px;
+}
+
+.labeler-container-pane {
+  padding: 2px;
+  /* min-width: 30px; */
+}
+.labeler-container select {
+  /* border: 2px solid black; */
+}
+.annotation-options-pane {
+}

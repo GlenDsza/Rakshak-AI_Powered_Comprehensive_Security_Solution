@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "DM Sans", sans-serif !important;
+    font-feature-settings: "kern" !important;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: -0.5px;
+  }
+}
+
+input:focus {
+  outline: none !important;
+}
+
+input.defaultCheckbox::before {
+  content: url(../src/assets/svg/checked.svg);
+  color: white;
+  opacity: 0;
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0px);
+}
+
+input:checked.defaultCheckbox::before {
+  opacity: 1;
+}
+
+/*  scrollbar styles */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.chakra-modal__content-container {
+  z-index: 9999;
+}
+
+.chakra-modal__overlay {
+  z-index: 9998;
+}
+
+#status div {
+  right: 8px;
+}
+
+.searchWrapper {
+  border: none !important;
+  display: flex;
+}
+
+#search_input {
+  padding-left: 1rem;
+  padding-right: 0.5rem;
+  display: inline;
+}
+
+.css-79z5gx {
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+}
