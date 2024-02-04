@@ -24,8 +24,6 @@
     "@reduxjs/toolkit": "^1.9.5",
     "@tanstack/match-sorter-utils": "^8.8.4",
     "@tanstack/react-table": "^8.10.1",
-    "@teachablemachine/image": "^0.8.5",
-    "@teachablemachine/pose": "^0.8.6",
     "@tensorflow/tfjs": "^4.17.0",
     "@types/history": "^5.0.0",
     "@types/react-calendar": "^4.1.0",
