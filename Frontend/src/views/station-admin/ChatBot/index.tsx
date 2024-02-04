@@ -2,6 +2,7 @@ import ChatBody from "./components/ChatBody";
 import { useAppSelector } from "@/app/store";
 import ChatInput from "./components/ChatInput";
 import {  useState, useEffect } from "react";
+import { Select } from '@chakra-ui/react'
 import axios from "axios";
 
 const Chatbot = () => {  
@@ -61,9 +62,17 @@ const Chatbot = () => {
       <div className="gradient-02 z-0 absolute bottom-1"></div>
 
       {/* Header */}
-      <div className=" font-bold text-xl text-center mb-3">
-        AI Assistant
+      <div className="flex bg-black" >
+      <Select variant='outline' className="opacity-0 text-white rounded-md col">
+        <option value='option1' selected className="text-white">Option 1</option>
+        <option value='option2' className="bg-transparent text-white">Option 2</option>
+        <option value='option3' className="bg-transparent text-white">Option 3</option>
+      </Select>
+        <div className=" font-bold text-xl text-center mb-3">
+          AI Assistant
+        </div>
       </div>
+      
       {/* Chat Body */}
       <div className="h-[90%] overflow-auto w-full max-w-4xl min-w-[20rem] py-8 self-center px-4">
         <ChatBody chatArr={chat} />

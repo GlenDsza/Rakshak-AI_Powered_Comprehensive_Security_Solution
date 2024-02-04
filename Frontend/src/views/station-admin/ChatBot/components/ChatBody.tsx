@@ -7,7 +7,7 @@ import { useAppSelector } from "@/app/store";
 const ChatMessage = ({ chat }) => {
   const admin = useAppSelector((state) => state.admin.data);
   const isAiMessage = chat?.role === "ai";
-  const messageStyle = `border-[#999999] break-words border-1 rounded-lg p-2 max-w-[90%] ${
+  const messageStyle = `border-[#999999] break-words border-1 rounded-lg p-2 ${
     isAiMessage ? "bg-[#FFFFFF22] dropshadow-md mr-auto" : ""
   }`;
 
