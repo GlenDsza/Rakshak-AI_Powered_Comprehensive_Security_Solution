@@ -28,14 +28,14 @@ List<Incident> userReports = [
       title: "Beating single person",
       description: "Four Persons fighting with one person very badly in public",
       type: "Crime",
-      station_name: "Jaipur",
+      station_name: "Vidyavihar",
       location:
-          "Station Road, Metro Pillor No. 167 Hanumant Kunj, Barodia Scheme, Gopalbari, Jaipur, Rajasthan 302001, India",
+          "Vidyanagar, Vidya Vihar East, Vidyavihar, Mumbai, Maharashtra 400077",
       source: "9324326404",
       status: "Closed",
-      created_at: "2024-01-11T00:21:12.102+00:00",
-      lat: "26.920830",
-      long: "75.793044"),
+      created_at: "2024-01-25T00:21:12.102+00:00",
+      lat: "19.072802952792475",
+      long: "72.89988494373044"),
   Incident(
       id: "ABCB1234",
       image:
@@ -44,13 +44,13 @@ List<Incident> userReports = [
       description:
           "People fighting with each other, trying to hurt random people",
       type: "Crime",
-      station_name: "Jaipur",
-      location: "Jhalana Gram, Malviya Nagar, Jaipur, Rajasthan 302017, India",
+      station_name: "Vidyavihar",
+      location: "30-12, near Vidyavihar, ONGC Colony, Ambedkar Nagar, Vidyavihar, Mumbai, Maharashtra 400077",
       source: "9324326404",
       status: "Closed",
-      created_at: "2024-01-15T00:21:12.102+00:00",
-      lat: "26.865715",
-      long: "75.820325"),
+      created_at: "2024-01-26T00:21:12.102+00:00",
+      lat: "19.078690299383112",
+      long: "72.89768311034011"),
   Incident(
     id: "BBCB1234",
     image:
@@ -58,13 +58,13 @@ List<Incident> userReports = [
     title: "Car & Truck Accident",
     description: "A Car collided with a truck, 2 people injured",
     type: "Accident",
-    station_name: "Jaipur",
-    location: "256, Nirman Nagar, Sushilpura, Jaipur, Rajasthan 302019, India",
-    lat: "26.889263",
-    long: "75.748453",
+    station_name: "Kurla",
+    location: "3V9V+3GM, Chembur West, Tilak Nagar, Kurla, Mumbai, Maharashtra 400089",
+    lat: "19.06778712141084",
+    long: "72.89377890674763",
     source: "CCTV",
     status: "Closed",
-    created_at: "2024-01-15T00:21:12.102+00:00",
+    created_at: "2024-01-26T00:21:12.102+00:00",
   ),
   Incident(
       id: "DBCB1234",
@@ -73,13 +73,13 @@ List<Incident> userReports = [
       title: "Two Cars Collided",
       description: "Accident Between Two cars, driver in both cars injured",
       type: "Accident",
-      station_name: "Jaipur",
-      location: "Chakala street",
+      station_name: "Vidyavihar",
+      location: "3WJ2+682, Rajawadi Colony, Vidyavihar, Mumbai, Maharashtra 400077",
       source: "CCTV",
       status: "Closed",
-      created_at: "2024-01-15T00:21:12.102+00:00",
-      lat: "26.918374",
-      long: "75.800766"),
+      created_at: "2024-01-27T00:21:12.102+00:00",
+      lat: "19.080556",
+      long: "72.900778"),
   Incident(
       id: "EFGH5678",
       image:
@@ -87,14 +87,14 @@ List<Incident> userReports = [
       title: "Car on Fire",
       description: "A car caught fire suddenly, everyone is safe",
       type: "Accident",
-      station_name: "Jaipur",
+      station_name: "Ghatkopar",
       location:
-          "6, Vivek Nagar, Kanti Nagar, Sindhi Camp, Jaipur, Rajasthan 302016, India",
+          "ZEST BUSINESS SPACES, Mahatma Gandhi Rd, Anjaria Wadi, Rajawadi Colony, Ghatkopar East, Mumbai, Maharashtra 400077",
       source: "CCTV",
       status: "Pending",
-      created_at: "2024-01-12T08:45:30.512+00:00",
-      lat: "26.923884",
-      long: "75.801752"),
+      created_at: "2024-01-27T08:45:30.512+00:00",
+      lat: "19.082451421858206",
+      long: "72.90429705809477"),
   Incident(
       id: "IJKL9012",
       image:
@@ -102,14 +102,14 @@ List<Incident> userReports = [
       title: "Person stole bag",
       description: "A theif threatened a person and stole his bag",
       type: "Assault",
-      station_name: "Jaipur",
+      station_name: "Vidyavihar",
       location:
-          "Chinkara, Military Containment, Jhotwara, Jaipur, Rajasthan 302032, India",
+          "3WJ2+682, Rajawadi Colony, Vidyavihar, Mumbai, Maharashtra 400077",
       source: "9324326404",
       status: "Resolved",
-      created_at: "2024-01-12T14:10:05.721+00:00",
-      lat: "26.931843",
-      long: "75.785003"),
+      created_at: "2024-01-28T14:10:05.721+00:00",
+      lat: "19.082567389793024",
+      long: "72.9048844618452"),
   Incident(
       id: "MNOP3456",
       image:
@@ -117,14 +117,14 @@ List<Incident> userReports = [
       title: "Beating single person",
       description: "Four Persons fighting with one person very badly in public",
       type: "Crime",
-      station_name: "Jaipur",
+      station_name: "Kurla",
       location:
-          "23A, Nahar Garh Rasta, Purani Basti, Jaipur, Rajasthan 302001, India",
+          "Bldg no 66 Dhanajay co-op hos soc Ltd, Tilak Nagar, Kurla, Mumbai, Maharashtra 400089",
       source: "CCTV",
       status: "Pending",
-      created_at: "2024-01-13T18:30:40.901+00:00",
-      lat: "26.932389",
-      long: "75.811464"),
+      created_at: "2024-01-28T18:30:40.901+00:00",
+      lat: "19.080533",
+      long: "72.902109"),
   Incident(
       id: "QRST7890",
       image:
@@ -133,14 +133,14 @@ List<Incident> userReports = [
       description:
           "People fighting with each other, trying to hurt random people",
       type: "Crime",
-      station_name: "Jaipur",
+      station_name: "Kurla",
       location:
-          "C-64 A, Sarojini Marg, Panch Batti, C Scheme, Ashok Nagar, Jaipur, Rajasthan 302001, India",
+          "B/212, Chittaranjan Nagar Rajawadi, Kurla East, Mumbai, Maharashtra 400089",
       source: "9324326404",
       status: "Pending",
-      created_at: "2024-01-14T09:15:22.623+00:00",
-      lat: "26.909933",
-      long: "75.804533"),
+      created_at: "2024-01-29T09:15:22.623+00:00",
+      lat: "19.081117",
+      long: "72.900693"),
   Incident(
       id: "UVWX1234",
       image:
@@ -148,14 +148,14 @@ List<Incident> userReports = [
       title: "Car & Truck Accident",
       description: "A Car collided with a truck, 2 people injured",
       type: "Accident",
-      station_name: "Jaipur",
+      station_name: "Kurla",
       location:
-          "Hatwara Rd, Adarsh Nawal Colony, Lakshmi Nagar, Jaipur, Rajasthan 302007, India",
+          "Kohinoor City Rd, Premier Residencies, Kurla West, Mumbai, Maharashtra 400070",
       source: "CCTV",
       status: "Closed",
-      created_at: "2024-01-16T12:45:55.321+00:00",
-      lat: "26.915980",
-      long: "75.772926"),
+      created_at: "2024-01-30T12:45:55.321+00:00",
+      lat: "19.075488",
+      long: "72.887285"),
   Incident(
       id: "YZAB5678",
       image:
@@ -163,13 +163,13 @@ List<Incident> userReports = [
       title: "Two Cars Collided",
       description: "Accident Between Two cars, driver in both cars injured",
       type: "Accident",
-      station_name: "Jaipur",
-      location: "Hasanpura, Jaipur, Rajasthan 302006, India",
+      station_name: "Vidyavihar",
+      location: "Sadguru Nagar, Neelkanth Kingdom, Vidyavihar West, Vidyavihar, Mumbai, Maharashtra 400086",
       source: "9324326404",
       status: "Resolved",
-      created_at: "2024-01-04T16:20:30.430+00:00",
-      lat: "26.921063",
-      long: "75.784501"),
+      created_at: "2024-01-30T16:20:30.430+00:00",
+      lat: "19.077829",
+      long: "72.894051"),
   Incident(
       id: "CDEF9012",
       image:
@@ -177,14 +177,14 @@ List<Incident> userReports = [
       title: "Car on Fire",
       description: "A car caught fire suddenly, everyone is safe",
       type: "Accident",
-      station_name: "Jaipur",
+      station_name: "Ghatkopar",
       location:
-          "S-5/B, Keshav Nagar, Civil Lines, Jaipur, Rajasthan 302006, India",
+          "Vidyanagar, Vidya Vihar East, Ghatkopar East, Mumbai, Maharashtra 400077",
       source: "9324326404",
       status: "Pending",
-      created_at: "2024-01-15T21:05:15.812+00:00",
-      lat: "26.902848",
-      long: "75.785016"),
+      created_at: "2024-01-31T21:05:15.812+00:00",
+      lat: "19.074746",
+      long: "72.898761"),
   Incident(
       id: "CDEF9013",
       image:
@@ -192,13 +192,13 @@ List<Incident> userReports = [
       title: "Person stole bag",
       description: "A theif threatened a person and stole his bag",
       type: "Assault",
-      station_name: "Jaipur",
-      location: "4-9, Sector 4, Jawahar Nagar, Jaipur, Rajasthan 302004, India",
+      station_name: "Kurla",
+      location: "110, Vidyanagar, Tilak Nagar, Kurla, Mumbai, Maharashtra 400089",
       source: "9324326404",
       status: "Pending",
-      created_at: "2024-01-17T21:05:15.812+00:00",
-      lat: "26.885766",
-      long: "75.831701"),
+      created_at: "2024-02-02T21:05:15.812+00:00",
+      lat: "19.072328",
+      long: "72.898010"),
   Incident(
       id: "CDEF9000",
       image:
@@ -206,13 +206,13 @@ List<Incident> userReports = [
       title: "Beating single person",
       description: "Four Persons fighting with one person very badly in public",
       type: "Crime",
-      station_name: "Jaipur",
-      location: "Jamdoli, Jaipur, Rajasthan 302031, India",
+      station_name: "Kurla",
+      location: "3WC2+RHF, Tilak Nagar, Kurla, Mumbai, Maharashtra 400089",
       source: "9324326404",
       status: "Pending",
-      created_at: "2024-01-17T21:05:15.812+00:00",
-      lat: "26.906409",
-      long: "75.890008"),
+      created_at: "2024-02-02T21:05:15.812+00:00",
+      lat: "19.07219571242224",
+      long: "72.9013577949438"),
   Incident(
       id: "CDEF7000",
       image:
@@ -221,14 +221,14 @@ List<Incident> userReports = [
       description:
           "People fighting with each other, trying to hurt random people",
       type: "Crime",
-      station_name: "Jaipur",
+      station_name: "Chembur",
       location:
-          "256, Nirman Nagar, Sushilpura, Jaipur, Rajasthan 302019, India",
+          "L-2/9, Sainath Mandir Chowk, Brindavan Colony, Chembur West, Tilak Nagar, Chembur, Mumbai, Maharashtra 400089",
       source: "User Report",
       status: "Pending",
-      created_at: "2024-01-16T21:05:15.812+00:00",
-      lat: "26.889263",
-      long: "75.748453"),
+      created_at: "2024-02-03T21:05:15.812+00:00",
+      lat: "19.070624",
+      long: "72.899427"),
   Incident(
       id: "CDEF6000",
       image:
@@ -236,14 +236,14 @@ List<Incident> userReports = [
       title: "Car & Truck Accident",
       description: "A Car collided with a truck, 2 people injured",
       type: "Accident",
-      station_name: "Jaipur",
+      station_name: "Ghatkopar",
       location:
-          "Galta Rd, near Ramganj choupad, Hida Ki Mori, Laxmi Narayan Puri, Jaipur, Rajasthan 302002, India",
+          "55-11, Pestom Sagar Rd Number 3, Chembur West, Pestom Sagar Colony, Ghatkopar East, Mumbai, Maharashtra 400089",
       source: "9324326404",
       status: "Pending",
-      created_at: "2024-01-17T21:05:15.812+00:00",
-      lat: "26.921369",
-      long: "75.835651"),
+      created_at: "2024-02-03T21:05:15.812+00:00",
+      lat: "19.069159",
+      long: "72.902195"),
   Incident(
       id: "CDEF5000",
       image:
@@ -251,14 +251,14 @@ List<Incident> userReports = [
       title: "Two Cars Collided",
       description: "Accident Between Two cars, driver in both cars injured",
       type: "Accident",
-      station_name: "Jaipur",
+      station_name: "Ghatkopar",
       location:
-          "68, Talkatora Colony, J.D.A. Market, Kanwar Nagar, Jaipur, Rajasthan 302002, India",
+          "Ghatkopar - Mahul Rd, Chembur West, Pestom Sagar Colony, Ghatkopar East, Mumbai, Maharashtra 400089",
       source: "9324326404",
       status: "Pending",
-      created_at: "2024-01-16T21:05:15.812+00:00",
-      lat: "26.932083",
-      long: "75.826032"),
+      created_at: "2024-02-04T21:05:15.812+00:00",
+      lat: "19.068870",
+      long: "72.900639"),
   Incident(
       id: "CAEF5000",
       image:
@@ -266,14 +266,14 @@ List<Incident> userReports = [
       title: "Car on Fire",
       description: "A car caught fire suddenly, everyone is safe",
       type: "Accident",
-      station_name: "Jaipur",
+      station_name: "Kurla",
       location:
-          "137, Galta Rd, Goverdhan Puri, Lal Dungri, Jaipur, Rajasthan 302003, India",
+          "Mumbai - Pune Hwy, Indira Nagar, Tilak Nagar, Kurla, Mumbai, Maharashtra 400089",
       source: "CCTV",
       status: "Pending",
-      created_at: "2024-01-17T21:05:15.812+00:00",
-      lat: "26.917390",
-      long: "75.849222"),
+      created_at: "2024-02-04T21:05:15.812+00:00",
+      lat: "19.067653",
+      long: "72.888655"),
 ];
 
 List<BarData> dataListConstants = [
@@ -289,37 +289,37 @@ List<BarData> dataListConstants = [
 List<Cctv> cctvConstants = [
   Cctv(
       id: "cctv_111",
-      lat: "26.923884",
-      long: "75.801752",
+      lat: "19.070624",
+      long: "72.899427",
       title: "CCTV 1",
       address:
-          "6, Vivek Nagar, Kanti Nagar, Sindhi Camp, Jaipur, Rajasthan 302016, India",
+          "L-2/9, Sainath Mandir Chowk, Brindavan Colony, Chembur West, Tilak Nagar, Chembur, Mumbai, Maharashtra 400089",
       streamUrl:
           "https://res.cloudinary.com/dp0ayty6p/video/upload/v1705471181/samples/public_accident_fire.mp4"),
   Cctv(
       id: "cctv_222",
-      lat: "26.920830",
-      long: "75.793044",
+      lat: "19.069159",
+      long: "72.902195",
       title: "CCTV 2",
       address:
-          "Station Road, Metro Pillor No. 167 Hanumant Kunj, Barodia Scheme, Gopalbari, Jaipur, Rajasthan 302001, India",
+          "55-11, Pestom Sagar Rd Number 3, Chembur West, Pestom Sagar Colony, Ghatkopar East, Mumbai, Maharashtra 400089",
       streamUrl:
           "https://res.cloudinary.com/dp0ayty6p/video/upload/v1705485743/samples/fire_sample.mp4"),
   Cctv(
       id: "cctv_333",
-      lat: "26.917390",
-      long: "75.849222",
+      lat: "19.068870",
+      long: "72.900639",
       title: "CCTV 3",
       address:
-          "137, Galta Rd, Goverdhan Puri, Lal Dungri, Jaipur, Rajasthan 302003, India",
+          "Ghatkopar - Mahul Rd, Chembur West, Pestom Sagar Colony, Ghatkopar East, Mumbai, Maharashtra 400089",
       streamUrl:
           "https://res.cloudinary.com/dp0ayty6p/video/upload/v1704614357/samples/gun_video.mp4"),
   Cctv(
       id: "cctv_444",
-      lat: "26.885766",
-      long: "75.831701",
+      lat: "19.067653",
+      long: "72.888655",
       title: "CCTV 4",
-      address: "4-9, Sector 4, Jawahar Nagar, Jaipur, Rajasthan 302004, India",
+      address: "Mumbai - Pune Hwy, Indira Nagar, Tilak Nagar, Kurla, Mumbai, Maharashtra 400089",
       streamUrl:
           "https://res.cloudinary.com/dp0ayty6p/video/upload/v1705471181/samples/public_accident_fire.mp4"),
 ];

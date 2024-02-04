@@ -11,6 +11,7 @@ final Map<String, String> enUs = {
   "lbl_resend_code": "Resend Code",
   "lbl_password": "Password",
   "msg_we_sent_a_code2": "We sent a code to (******",
+  "msg_783_enter": ").",
   "lbl_pin_code": "PIN code",
   "msg_incident_details": "Incident Details",
   "msg_incident_location": "Incident Location",

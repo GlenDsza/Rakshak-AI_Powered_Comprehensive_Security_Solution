@@ -14,7 +14,9 @@ import SignIn from "@/views/auth/SignIn";
 import { MdHome, MdLock, MdReport, MdOutlineLocalPolice } from "react-icons/md";
 import { TbReport } from "react-icons/tb";
 import { BiCctv } from "react-icons/bi";
+import { SiWechat } from "react-icons/si";
 import { BsFillPeopleFill } from "react-icons/bs";
+import Chatbot from "./views/station-admin/ChatBot";
 
 const routes = [
   {
@@ -51,6 +53,13 @@ const routes = [
     path: "public-surveillance",
     icon: <BiCctv className="h-6 w-6" />,
     component: <PublicCCTvs />,
+  },
+  {
+    name: "ChatBot",
+    layout: "/station-admin",
+    path: "chatbot",
+    icon: <SiWechat className="h-6 w-6" />,
+    component: <Chatbot />,
   },
   {
     name: "Staff",
