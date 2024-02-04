@@ -31,7 +31,7 @@ class MapPolicePage extends StatelessWidget {
               children: [
                 GoogleMap(
                   initialCameraPosition: CameraPosition(
-                    target: LatLng(26.866866, 75.819099),
+                    target: LatLng(19.072692341100385, 72.89981901377328),
                     zoom: 13,
                   ),
                   myLocationButtonEnabled: true,
@@ -39,7 +39,7 @@ class MapPolicePage extends StatelessWidget {
                   markers: {
                     Marker(
                         markerId: MarkerId("police"),
-                        position: LatLng(26.866866, 75.819099),
+                        position: LatLng(19.072692341100385, 72.89981901377328),
                         icon: state.policeMarkerIcon ??
                             BitmapDescriptor.defaultMarkerWithHue(
                                 BitmapDescriptor.hueBlue),

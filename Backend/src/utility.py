@@ -22,14 +22,14 @@ def get_lat_long(address):
     lon = geocode_result[0]["geometry"]["location"]["lng"]
     return (str(lat), str(lon))
   except Exception as e:
-    return ("26.8668664","75.8190989")
+    return ("19.072692341100385","72.89981901377328")
 
 
 def get_lat_long_by_cctv(id):
     for feature in cctv_json["features"]:
         if feature["properties"]["id"] == id:
             return feature["geometry"]["coordinates"]
-    return ("26.8668664","75.8190989")
+    return ("19.072692341100385","72.89981901377328")
 
 cctv_json = {
   "features": [
