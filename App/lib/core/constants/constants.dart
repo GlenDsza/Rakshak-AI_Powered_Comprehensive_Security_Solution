@@ -45,7 +45,8 @@ List<Incident> userReports = [
           "People fighting with each other, trying to hurt random people",
       type: "Crime",
       station_name: "Vidyavihar",
-      location: "30-12, near Vidyavihar, ONGC Colony, Ambedkar Nagar, Vidyavihar, Mumbai, Maharashtra 400077",
+      location:
+          "30-12, near Vidyavihar, ONGC Colony, Ambedkar Nagar, Vidyavihar, Mumbai, Maharashtra 400077",
       source: "9324326404",
       status: "Closed",
       created_at: "2024-01-26T00:21:12.102+00:00",
@@ -59,7 +60,8 @@ List<Incident> userReports = [
     description: "A Car collided with a truck, 2 people injured",
     type: "Accident",
     station_name: "Kurla",
-    location: "3V9V+3GM, Chembur West, Tilak Nagar, Kurla, Mumbai, Maharashtra 400089",
+    location:
+        "3V9V+3GM, Chembur West, Tilak Nagar, Kurla, Mumbai, Maharashtra 400089",
     lat: "19.06778712141084",
     long: "72.89377890674763",
     source: "CCTV",
@@ -74,7 +76,8 @@ List<Incident> userReports = [
       description: "Accident Between Two cars, driver in both cars injured",
       type: "Accident",
       station_name: "Vidyavihar",
-      location: "3WJ2+682, Rajawadi Colony, Vidyavihar, Mumbai, Maharashtra 400077",
+      location:
+          "3WJ2+682, Rajawadi Colony, Vidyavihar, Mumbai, Maharashtra 400077",
       source: "CCTV",
       status: "Closed",
       created_at: "2024-01-27T00:21:12.102+00:00",
@@ -164,7 +167,8 @@ List<Incident> userReports = [
       description: "Accident Between Two cars, driver in both cars injured",
       type: "Accident",
       station_name: "Vidyavihar",
-      location: "Sadguru Nagar, Neelkanth Kingdom, Vidyavihar West, Vidyavihar, Mumbai, Maharashtra 400086",
+      location:
+          "Sadguru Nagar, Neelkanth Kingdom, Vidyavihar West, Vidyavihar, Mumbai, Maharashtra 400086",
       source: "9324326404",
       status: "Resolved",
       created_at: "2024-01-30T16:20:30.430+00:00",
@@ -193,7 +197,8 @@ List<Incident> userReports = [
       description: "A theif threatened a person and stole his bag",
       type: "Assault",
       station_name: "Kurla",
-      location: "110, Vidyanagar, Tilak Nagar, Kurla, Mumbai, Maharashtra 400089",
+      location:
+          "110, Vidyanagar, Tilak Nagar, Kurla, Mumbai, Maharashtra 400089",
       source: "9324326404",
       status: "Pending",
       created_at: "2024-02-02T21:05:15.812+00:00",
@@ -319,7 +324,8 @@ List<Cctv> cctvConstants = [
       lat: "19.067653",
       long: "72.888655",
       title: "CCTV 4",
-      address: "Mumbai - Pune Hwy, Indira Nagar, Tilak Nagar, Kurla, Mumbai, Maharashtra 400089",
+      address:
+          "Mumbai - Pune Hwy, Indira Nagar, Tilak Nagar, Kurla, Mumbai, Maharashtra 400089",
       streamUrl:
           "https://res.cloudinary.com/dp0ayty6p/video/upload/v1705471181/samples/public_accident_fire.mp4"),
 ];
@@ -358,7 +364,7 @@ List<ValueItem> incidentCategoryConst = [
 ];
 
 List<ValueItem> incidentDistrictConst = [
-  ValueItem(label: "Ajmer", value: "Ajmer"),
+  ValueItem(label: "Mumbai Suburban", value: "Mumbai Suburban"),
   ValueItem(label: "Alwar", value: "Alwar"),
   ValueItem(label: "Anupgarh", value: "Anupgarh"),
   ValueItem(label: "ATS & SOG", value: "ATS & SOG"),
@@ -417,7 +423,7 @@ List<ValueItem> incidentDistrictConst = [
 
 List<ValueItem> getIncidentStationList(String district) {
   switch (district) {
-    case "Ajmer":
+    case "Mumbai Suburban":
       return ajmerStationList;
     case "Alwar":
       return alwarStationList;
@@ -535,8 +541,8 @@ List<ValueItem> getIncidentStationList(String district) {
 }
 
 List<ValueItem> ajmerStationList = [
-  ValueItem(label: "Adarsh Nagar", value: "Adarsh Nagar"),
-  ValueItem(label: "Alwar Gate", value: "Alwar Gate"),
+  ValueItem(label: "Andheri", value: "Andheri"),
+  ValueItem(label: "Vidyavihar", value: "Vidyavihar"),
   ValueItem(label: "Arian", value: "Arian"),
   ValueItem(label: "Bander Sindri", value: "Bander Sindri"),
   ValueItem(label: "Christianganj", value: "Christianganj"),
