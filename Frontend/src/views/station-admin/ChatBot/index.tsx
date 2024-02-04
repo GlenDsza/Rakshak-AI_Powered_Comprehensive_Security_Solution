@@ -58,16 +58,16 @@ const Chatbot = () => {
       <div className="my-3 grid grid-cols-1">
         <div className="bg-[#1A232E] rounded-lg shadow-2xl  h-[87vh] py-6 relative text-white overflow-hidden flex flex-col justify-between align-middle">
       {/* gradients */}
-      <div className="gradient-01 z-0 absolute"></div>
+      {/* <div className="gradient-01 z-0 absolute"></div> */}
       <div className="gradient-02 z-0 absolute bottom-1"></div>
 
       {/* Header */}
       <div className="flex bg-black" >
-      <Select variant='outline' className="opacity-0 text-white rounded-md col">
-        <option value='option1' selected className="text-white">Option 1</option>
-        <option value='option2' className="bg-transparent text-white">Option 2</option>
-        <option value='option3' className="bg-transparent text-white">Option 3</option>
-      </Select>
+      <Select variant='outline' className="text-white rounded-md col bg-gray-700">    
+      <option value='option1' selected className="text-white">Option 1</option>
+    <option value='option2' className="bg-transparent text-white">Option 2</option>
+    <option value='option3' className="bg-transparent text-white">Option 3</option>
+  </Select>
         <div className=" font-bold text-xl text-center mb-3">
           AI Assistant
         </div>

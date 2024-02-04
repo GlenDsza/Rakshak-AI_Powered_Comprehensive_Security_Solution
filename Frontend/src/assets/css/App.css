@@ -6,3 +6,7 @@ body {
 option {
 	color: black;
 }
+
+.chakra-select__icon {
+	display: none !important;
+  }
