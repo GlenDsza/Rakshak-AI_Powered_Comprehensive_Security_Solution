@@ -1,17 +1,6 @@
 {
   "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "cctv_c01",
-        "cctv_type": "prison",
-        "title": "Cell #2",
-        "description": "Prison, Jaipur",
-        "kind": "default",
-        "streamUrl": "https://res.cloudinary.com/dp0ayty6p/video/upload/v1705495523/samples/prison_kenneth.mp4"
-      },
-      "geometry": { "coordinates": [75.801752,26.923884], "type": "Point" }
-    },
+ 
     {
       "type": "Feature",
       "properties": {
@@ -20,7 +9,7 @@
         "title": "Cell #1",
         "description": "Prison, Jaipur",
         "kind": "default",
-        "streamUrl": "https://res.cloudinary.com/dp0ayty6p/video/upload/v1705470821/samples/prison_cell_fight_crack.mp4"
+        "streamUrl": "https://res.cloudinary.com/dp0ayty6p/video/upload/v1707012937/samples/gunTamperCrack.mp4"
       },
       "geometry": { "coordinates": [75.801752,26.923884], "type": "Point" }
     },

@@ -7,7 +7,7 @@ SMS_WEBHOOK = "https://www.fast2sms.com/dev/bulkV2"
 API_KEY = config("API_KEY")
 AWS_KEY = config("AWS_KEY")
 SECRET_KEY_AWS = config("SECRET_KEY_AWS")
-S3_BUCKET_NAME = "railrakshak"
+S3_BUCKET_NAME = "railrakshak1"
 
 # When video stream fails, or some error occurs, the video stream processing is stopped
 MAX_CONSECUTIVE_FRAME_FAILURES = 20

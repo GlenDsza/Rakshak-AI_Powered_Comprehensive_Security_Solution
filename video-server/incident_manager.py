@@ -164,14 +164,18 @@ class IncidentManager:
             f"Notifying for {detection_type} detection on CCTV {cctvId}:", detections)
 
         incident = {
-            'image': "",
+            'id': str(random.randint(1000, 9999)),
+            'image': "https://res.cloudinary.com/dp0ayty6p/image/upload/v1706996639/samples/Screenshot_2024-02-04_031253.png",
             'title': incident_meta_data[detection_type]['title'],
             'description': incident_meta_data[detection_type]['title'],
             'type': detection_type,
-            'station_name': "Jaipur",
+            'station_name': "Andheri",
             'location': "Shree Ram road, Lalkothi Jaipur, Rajasthan 302015",
-            'source': cctvId,
+            'source': "CCTV",
             'status': "Pending",
+            "created_at": "2024-02-03T21:15:50.931706",
+            "lat": "19.1198",
+            "long": "72.8465", 
             # 'cctv_type': cctv_type,
             # 'cctv_id': cctvId,
             # 'detections': detections,
@@ -188,7 +192,7 @@ class IncidentManager:
 
         bucket.upload_fileobj(byte_im_io, uname)
         incident['image'] = f"https://{S3_BUCKET_NAME}.s3.amazonaws.com/{uname}"
-
+        print("Reached AWS")
         if REGISTER_INCIDENT:
             #  Save incident notification in DB
             # print("Save to DB -", incident)
