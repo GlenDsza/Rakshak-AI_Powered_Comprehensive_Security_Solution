@@ -5,6 +5,7 @@ import Incidents from "@/views/station-admin/Incidents";
 import Footages from "@/views/station-admin/Footages";
 import Staff from "@/views/station-admin/Staff";
 import PublicCCTvs from "@/views/station-admin/PublicCCTVs";
+import LiveFootage from "@/views/station-admin/LiveFootage";
 import Annotate from "@/views/station-admin/Annotate";
 
 // Auth Imports
@@ -53,6 +54,13 @@ const routes = [
     path: "public-surveillance",
     icon: <BiCctv className="h-6 w-6" />,
     component: <PublicCCTvs />,
+  },
+  {
+    name: "Live Footage",
+    layout: "/station-admin",
+    path: "live-footage",
+    icon: <BiCctv className="h-6 w-6" />,
+    component: <LiveFootage />,
   },
   {
     name: "ChatBot",
