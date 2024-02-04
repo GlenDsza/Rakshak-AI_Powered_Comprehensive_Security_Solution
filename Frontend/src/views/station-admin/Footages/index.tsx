@@ -63,13 +63,14 @@ const Footages = () => {
             cctv={cctv}
             key={cctv.id}
             climbingMode={cctv.cctv_type === CCTV_TYPES.STATION_PREMISES}
-            suspiciousMode
-            violenceMode={cctv.cctv_type === CCTV_TYPES.PRISON}
+            suspiciousMode={false}
+            violenceMode={false}
             weaponsMode={cctv.cctv_type === CCTV_TYPES.PRISON}
             accidentMode={false}
             fireMode={false}
             crackMode={
               cctv.cctv_type === CCTV_TYPES.PRISON && cctv.id === "cctv_c00"
+              // true
             }
             tamperMode={false}
             faceMode={false}
