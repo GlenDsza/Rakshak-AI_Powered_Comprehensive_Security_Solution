@@ -170,7 +170,7 @@ class IncidentManager:
             'description': incident_meta_data[detection_type]['title'],
             'type': detection_type,
             'station_name': "Andheri",
-            'location': "Shree Ram road, Lalkothi Jaipur, Rajasthan 302015",
+            'location': "Azad Nagar, Andheri West, Mumbai, Maharashtra, India",
             'source': "CCTV",
             'status': "Pending",
             "created_at": "2024-02-03T21:15:50.931706",

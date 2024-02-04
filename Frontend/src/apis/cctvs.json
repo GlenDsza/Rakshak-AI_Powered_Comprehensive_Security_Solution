@@ -7,7 +7,7 @@
         "id": "cctv_c00",
         "cctv_type": "prison",
         "title": "Cell #1",
-        "description": "Prison, Jaipur",
+        "description": "Prison, Andheri",
         "kind": "default",
         "streamUrl": "https://res.cloudinary.com/dp0ayty6p/video/upload/v1707012937/samples/gunTamperCrack.mp4"
       },
@@ -19,7 +19,7 @@
         "id": "cctv_p00",
         "cctv_type": "station_premises",
         "title": "Backyard",
-        "description": "Prison, Jaipur",
+        "description": "Prison, ANdheri",
         "kind": "default",
         "streamUrl": "https://res.cloudinary.com/dp0ayty6p/video/upload/v1705472325/samples/prison_wall_climbing.mp4"
       },
