@@ -20,7 +20,7 @@ class CctvDetailsBloc extends Bloc<CctvDetailsEvent, CctvDetailsState> {
           "https://res.cloudinary.com/dp0ayty6p/video/upload/v1705171052/samples/fire_sample.mp4",
       title: "CCTV 5",
       address:
-          "6, Vivek Nagar, Kanti Nagar, Sindhi Camp, Jaipur, Rajasthan 302016, India");
+          "Vidyanagar, Vidya Vihar East, Vidyavihar, Mumbai, Maharashtra 400077");
   void initializeVideoPlayer(Cctv cctv, BuildContext context) async {
     VideoPlayerController videoPlayerController;
     videoPlayerController =

@@ -102,4 +102,5 @@ final Map<String, String> enUs = {
   "lbl_image_evidence": "Image Evidence",
   "lbl_location": "Location",
   "lbl_your_voice": "Your Voice, Our Duty",
+  "lbl_home": "Home",
 };
